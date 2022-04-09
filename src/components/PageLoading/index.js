@@ -21,7 +21,7 @@ export default function PageLoading() {
           <PageLoadTitleContainer>
             <PageLoadingTitleLogo src={Logo} alt="logo" />
             <PageLoadingTitleContent>Acquire</PageLoadingTitleContent>
-            <PageLoadingSpan>Loading . . .</PageLoadingSpan>
+            {/* <PageLoadingSpan>Loading . . .</PageLoadingSpan> */}
           </PageLoadTitleContainer>
         </RoundSpinnerContainer>
       </PageLoadingContainer>

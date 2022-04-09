@@ -39,6 +39,12 @@ export const RoundSpinnerContainer = styled.div`
   justify-content: center;
   position: relative;
   margin: 40px auto 80px;
+
+  @media (max-width: 32em) {
+    width: 148px;
+    height: 148px;
+    margin-top: 80px;
+  }
 `;
 
 export const PageLoadingSpinner = styled.div`
@@ -65,6 +71,10 @@ export const PageLoadingSpinner = styled.div`
     right: 31px;
     top: 41px;
     border-radius: 50%;
+    @media (max-width: 32em) {
+      top: 21px;
+      right: 19px;
+    }
   }
 `;
 
@@ -90,4 +100,5 @@ export const PageLoadingTitleContent = styled.h1`
 export const PageLoadingSpan = styled.span`
   font-weight: 600;
   margin: 10px auto;
+  font-size: 0.9rem;
 `;
